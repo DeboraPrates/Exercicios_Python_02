@@ -1,0 +1,7 @@
+numeros = list(range(0,11))
+print(numeros)
+print(numeros[2:11:2])
+pares = (numeros[2:11:2])
+print(pares)
+pares.insert(2, 15)
+print(pares)
